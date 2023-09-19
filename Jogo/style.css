@@ -1,0 +1,177 @@
+:root {
+  --fundo-titulo: #14687C;
+  --azul-inicial:#053153;
+  --fundo-cor:#E7ECF9;
+  --verde-pastel: #BFD0D8;
+
+}
+
+* {
+  margin:0;
+  padding:0;
+}
+
+a {
+  text-decoration: none;
+  color:var(--azul-inicial);
+}
+
+nav {
+  height: 16vh;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.40rem;
+}
+
+body {
+  background-color: var(--fundo-cor);
+}
+
+li {
+  text-decoration: none;
+}
+
+.oreia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15%;
+  font-size: 1.4rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.linha_reta {
+  flex-direction: column;
+  width:99.5rem;
+  height: 100%;
+  height: 7px;
+  transform: scale(1.01);
+  background-color: var(--azul-inicial);
+  border: none;
+}
+
+.imagem_principal {
+  font-size: 1.4rem;
+  color: var(--azul-inicial);
+  display: inline-block;
+  display: flex;
+  gap: 8rem;
+
+}
+
+#garotinho {
+  padding-left: 20rem;
+  transform: scale(0.7 1 0.7 1);
+}
+
+.texto_imagem {
+  display: flex;
+  justify-content: left;
+  width: 80%;
+  height: 80%;
+  align-items: start;
+}
+
+#geolatina {
+  padding-left: 4rem;
+  transform: scale(0.7);
+}
+
+.duvida {
+  margin-left: 1rem;
+}
+
+.jogo-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  
+.forca {
+    fill: transparent;
+    stroke: #000;
+    stroke-width: 4px;
+    stroke-linecap: round;
+}
+  
+  .forca-parte {
+    display: none;
+  }
+  
+  .letras-erradas-container {
+    font-size: 32px;
+  }
+  
+  .letras-erradas-container span {
+    margin: 0 2px;
+  }
+  
+  .palavra-secreta-container {
+    font-size: 45px;
+    text-align: center;
+  }
+  
+  .aviso-palavra-repetida {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 0 0;
+    padding: 15px 20px;
+    position: absolute;
+    bottom: -55px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .aviso-palavra-repetida p {
+    margin: 0;
+  }
+  
+  .aviso-palavra-repetida.show {
+    transform: translateY(-50px);
+  }
+  
+  .palavra-secreta-container span {
+    margin: 0 5px;
+  }
+  
+  .popup-container {
+    background-color: rgba(0, 0, 0, 0.849);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* display: flex; */
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .popup {
+    background: #2980b9;
+    border-radius: 5px;
+    box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .popup button {
+    cursor: pointer;
+    background-color: #e7ecf9;
+    border: 0;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+
+h2{
+  text-align: center;
+}
+  

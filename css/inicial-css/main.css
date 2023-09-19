@@ -1,0 +1,23 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+a {
+    text-decoration: none;
+    color:var(--azul-inicial);
+}
+
+nav {
+    height: 16vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.40rem;
+}
+
+body {
+    background-color: var(--fundo-cor);
+}
+
+li {
+    text-decoration: none;
+}

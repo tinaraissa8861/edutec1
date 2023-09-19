@@ -1,0 +1,528 @@
+.oreia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    font-size: 1.4rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha_reta {
+    flex-direction: column;
+    width: 99.5%;
+    height: 100%;
+    height: 7px;
+    transform: scale(1.01);
+    background-color: var(--azul-inicial);
+    border: none;
+}
+
+.imagem_principal {
+    font-size: 1.4rem;
+    color: var(--azul-inicial);
+    display: inline-block;
+    display: flex;
+    gap: 8rem;
+
+}
+
+#garotinho {
+    padding-left: 20rem;
+    transform: scale(0.7 1 0.7 1);
+}
+
+.texto_imagem {
+    display: flex;
+    justify-content: left;
+    width: 80%;
+    height: 80%;
+    align-items: start;
+}
+
+#geolatina {
+    padding-left: 4rem;
+    transform: scale(0.7);
+}
+
+.duvida {
+    margin-left: 1rem;
+}
+/*Aspectos Geográficos*/
+
+.conteudo_aspecgeo_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo_aspecgeo_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+
+}
+
+
+.imagens_texto_aspecgeo_11 p {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+
+.conteudo_aspecgeo_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+
+.imagens_texto_aspecgeo_12 p {
+
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+
+
+
+/*Aspectos Geográficos 2*/
+
+.titulo_faunaeflora_2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+}
+
+.imagens_texto_aspecgeo_11 {
+    padding-inline: 2.5rem;
+
+}
+
+.imagens_texto_aspecgeo_12 img {
+    padding-inline: 2.5rem;
+}
+
+.conteudo_aspecgeo_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.texto {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    margin-inline: 12rem;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Clima*/
+
+.titulo_clima_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+
+}
+
+.imagens_clima_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16rem;
+}
+
+.imagens_faunaeflora_2 img {
+    padding-inline: 2.5rem;
+}
+
+.texto_clima_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 1.4rem;
+    margin-inline: 12rem;
+}
+
+/*Cultura 1*/
+
+.titulo_cultura_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+}
+
+.imagens_cultura_1 {
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.imagens_cultura_1 img {
+    padding-inline: 2.5rem;
+}
+
+.texto_cultura_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.texto_cultura_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    margin-inline: 12rem;
+}
+
+.seta {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+/*Cultura 2*/
+
+.titulo_cultura_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+}
+
+.imagens_cultura_2 {
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.imagens_cultura_2 img {
+    padding-inline: 2.5rem;
+}
+
+.texto_cultura_2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.texto_cultura_2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    margin-inline: 12rem;
+}
+
+/*Duvida*/
+
+.titulo_duvida h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 700;
+    padding-top: 8rem;
+    color: var(--azul-inicial);
+}
+
+.gmail {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.9rem;
+    border-radius: 1rem;
+    background-color: var(--verde-pastel);
+    margin-inline: 38rem;
+    text-align: center;
+    margin-top: 5rem;
+    padding-block: 1rem;
+}
+.papagaio {
+    padding-left: 95rem;
+    padding-top: 2rem;
+}
+
+/*Economia*/
+
+.titulo_economia_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+}
+
+.imagens_economia_1 {
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.imagens_economia_1 img {
+    padding-inline: 2.5rem;
+    height: 400px;
+    margin-bottom: 1.5rem;
+}
+
+
+
+.texto_economia_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.imagens_economiaa1 {
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.imagens_economiaa1 img {
+    padding-inline: 2.5rem;
+}
+ 
+.texto_economia_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Fauna e flora1*/
+
+.titulo_faunaeflora_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+}
+
+.imagens_faunaeflora_1 {
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.imagens_faunaeflora_1 img {
+    padding-inline: 2.5rem;
+}
+
+.texto_faunaeflora_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.imagens_faunaefloraa1 {
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.imagens_faunaefloraa1 img {
+    padding-inline: 2.5rem;
+}
+
+.texto_faunaeflora_1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    margin-inline: 12rem;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Fauna e flora 2*/
+
+.titulo_faunaeflora_2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+}
+
+.imagens_faunaeflora_2 {
+    display: inline-block;
+    margin-left: 15rem;
+}
+
+.imagens_faunaeflora_2 img {
+    padding-inline: 2.5rem;
+}
+
+.texto_faunaeflora_2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.texto_faunaeflora_2 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 1.4rem;
+    margin-inline: 12rem;
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Botoes*/
+
+.conteudo_inicio {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+}
+
+.imagens_botao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.botaos1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16.5rem;
+    margin-bottom: 5rem;
+}
+
+
+
+.botaos1 button {
+    height: 50px;
+    width: 200px;
+    background-color: var(--fundo-titulo);
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+
+.imagens_botao2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.botaos2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16rem;
+    margin-bottom: 7rem;
+}
+
+.botaos2 button {
+    height: 50px;
+    width: 200px;
+    background-color: var(--fundo-titulo);
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+/*participantes*/
+
+.titulo_participantes {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    color: white;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+
+}
+
+.participant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,74 @@
+.inicial1 {
+    display: flex;
+    list-style: none;
+}
+
+.inicial1 li {
+    margin-left: 12rem;
+    margin-right: 8rem;
+}
+
+.inicial2 {
+    display: flex;
+    list-style: none;
+}
+
+.inicial2 li {
+    margin-right: 12rem;
+    margin-left: 8rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6.1875rem;
+    height: 6.875rem;
+    top: 1.8125rem;
+    margin-inline: 15rem;
+}
+
+.linha {
+    width: 100%;
+}
+
+.titulo_participantes {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    color: #fff;
+    background-color: var(--fundo-titulo);
+    margin-inline: 34rem;
+    margin-top: 3rem;
+    margin-bottom: 2.8rem;
+    padding-block: 0.6rem;
+}
+
+.participant-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+.linhaa {
+    padding: 10px;
+    margin: 10px;
+    width: calc(33.33% - 1.25rem); /* Para exibir 3 participantes por linha */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.participant img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.participant p {
+    margin: 0.625rem 0;
+}
+
+.lupa {
+    position: absolute;
+    padding-top: 3rem;
+    padding-left: 3rem;
+}
